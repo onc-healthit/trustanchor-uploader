@@ -1,0 +1,4 @@
+<Context reloadable="true">
+    <Parameter name="trustBundleFile" value="${trustBundleFile}" override="true"/>
+	<Parameter name="trustAnchorDir" value="${trustAnchorDir}" override="true"/>
+</Context>
