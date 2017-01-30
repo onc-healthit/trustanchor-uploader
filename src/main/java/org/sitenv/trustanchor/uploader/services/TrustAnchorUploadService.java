@@ -50,7 +50,7 @@ public class TrustAnchorUploadService {
             }
             generateTrustBundle(trustAnchorDir, trustBundleFile);
             trustbundleUploadResult.setSuccess(true);
-            trustbundleUploadResult.setMessage("Upload successful. File saved as : " + savedFilePath);
+            trustbundleUploadResult.setMessage("Upload successful.);
         } catch (IOException e) {
             trustbundleUploadResult.setMessage("IO Exception reading anchor : " + e.getMessage());
         } catch (CertificateEncodingException e) {
